@@ -1,7 +1,7 @@
-<template functional>
+<template>
   <v-tooltip bottom>
     <template v-slot:activator="{ on, attrs }">
-      <v-img v-bind="attrs" v-on="on" src="/logo.png" width="70vw"/>
+      <img v-bind="attrs" v-on="on" src="/logo.png" width="70%"/>
     </template>
 
     <span>Designed by renata.s / Freepik</span>

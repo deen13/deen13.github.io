@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col v-for="project in projects">
+    <v-col v-for="project in projects" :key="project.title">
       <project :value="project"></project>
     </v-col>
   </v-row>
