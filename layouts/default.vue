@@ -7,12 +7,7 @@
 
           <nuxt class="mt-10"></nuxt>
 
-          <v-btn v-if="$nuxt.$route.path === '/'" x-large dark nuxt to="/projects">
-            Projekte
-          </v-btn>
-          <v-btn v-else x-large dark nuxt to="/">
-            Home
-          </v-btn>
+          <navigation></navigation>
         </v-row>
       </v-container>
     </v-main>

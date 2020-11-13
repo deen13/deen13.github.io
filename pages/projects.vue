@@ -11,7 +11,7 @@ export default {
   async asyncData({$axios}) {
     const projects = await $axios.$get('projects.json')
 
-    return {projects}
+    return { projects }
   }
 }
 </script>
