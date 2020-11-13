@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col v-for="project in projects" :key="project.title">
-      <project :value="project"></project>
+      <project-card :value="project"></project-card>
     </v-col>
   </v-row>
 </template>
