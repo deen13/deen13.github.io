@@ -1,5 +1,5 @@
 <template>
-  <v-bottom-navigation v-model="selection" color="primary" horizontal fixed @change="update">
+  <v-bottom-navigation v-model="selection" color="primary" horizontal fixed>
     <v-btn to="/projects" nuxt>
       <span>Projekte</span>
 
