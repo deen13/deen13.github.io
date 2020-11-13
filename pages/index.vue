@@ -20,6 +20,6 @@
 
 <script>
 export default {
-  layout: (ctx) => ctx.isMobile ? 'mobile' : 'default'
+  layout: (ctx) => ctx.isMobile ? 'mobile' : 'desktop'
 }
 </script>
