@@ -8,7 +8,7 @@
           </v-col>
         </v-row>
 
-        <nuxt></nuxt>
+        <nuxt class="mb-10 mt-4"></nuxt>
 
         <navigation></navigation>
       </v-container>
