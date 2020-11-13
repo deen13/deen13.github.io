@@ -2,26 +2,22 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
-  ssr: false,
+  ssr: true,
 
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'spa',
-
-  router: {
-    base: '/homepage/'
-  },
+  target: 'server',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: '%s',
-    title: 'Dennnis Dierkes',
+    title: 'Dennis Dierkes',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
       {hid: 'description', name: 'description', content: ''}
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/homepage/favicon.ico'}
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
     ]
   },
 
