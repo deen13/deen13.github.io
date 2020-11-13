@@ -37,10 +37,7 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     '@nuxtjs/axios',
-    [
-      '@nuxtjs/device',
-      {defaultUserAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36'}
-    ]
+    '@nuxtjs/device',
   ],
 
   axios: {
