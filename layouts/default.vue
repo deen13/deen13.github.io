@@ -15,12 +15,3 @@
     </v-main>
   </v-app>
 </template>
-
-<script>
-import Logo from '~/components/Logo.vue'
-import Navigation from "@/components/Navigation";
-
-export default {
-  components: { Logo, Navigation }
-}
-</script>

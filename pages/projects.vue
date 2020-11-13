@@ -8,10 +8,7 @@
 
 
 <script>
-import Project from "@/components/Project"
-
 export default {
-  components: {Project},
   async asyncData({$axios}) {
     const projects = await $axios.$get('https://raw.githubusercontent.com/deen13/json-store/master/projects.json')
 
