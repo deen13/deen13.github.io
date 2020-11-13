@@ -1248,11 +1248,6 @@
     consola "^2.15.0"
     defu "^3.1.0"
 
-"@nuxtjs/device@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/device/-/device-1.2.7.tgz#ccb6f33b1eed0c7725ab8668526da92534624154"
-  integrity sha512-Vyhw2ZSaUigFtRed5DjscV9jKevenvgFD5527rVAUzpSUQTcLau8NN+Zdf463bUr5xLwCDl7wUA4+1rGROmA5w==
-
 "@nuxtjs/proxy@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/proxy/-/proxy-2.0.1.tgz#2469b6e316311aa8c60d348502a54bfe6d5536aa"

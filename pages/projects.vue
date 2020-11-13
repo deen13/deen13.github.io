@@ -8,7 +8,6 @@
 
 <script>
 export default {
-  layout: (ctx) => ctx.isMobile ? 'mobile' : 'desktop',
   async asyncData({$axios}) {
     const projects = await $axios.$get('projects.json')
 

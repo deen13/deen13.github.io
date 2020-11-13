@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center">
+  <div class="text-center" >
     <p>
       Als Programmierer helfe ich Unternehmen dabei neue digitale Märkte zu erschließen und bestehende Prozess zu
       automatisieren.
@@ -18,8 +18,3 @@
   </div>
 </template>
 
-<script>
-export default {
-  layout: (ctx) => ctx.isMobile ? 'mobile' : 'desktop'
-}
-</script>
