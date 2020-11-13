@@ -1,18 +1,18 @@
 <template>
   <v-bottom-navigation v-model="selection" color="primary" horizontal fixed>
-    <v-btn to="/projects" nuxt x-large>
+    <v-btn to="/projects" nuxt height="56px">
       <span>Projekte</span>
 
       <v-icon>mdi-timeline-text</v-icon>
     </v-btn>
 
-    <v-btn to="/" nuxt x-large>
+    <v-btn to="/" nuxt height="56px">
       <span>Ich</span>
 
       <v-icon>mdi-account</v-icon>
     </v-btn>
 
-    <v-btn to="/content" nuxt x-large>
+    <v-btn to="/content" nuxt height="56px">
       <span>Content</span>
 
       <v-icon>mdi-post</v-icon>
