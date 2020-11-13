@@ -1,9 +1,10 @@
 <template>
   <v-tooltip bottom>
     <template v-slot:activator="{ on, attrs }">
-      <img v-bind="attrs" v-on="on" src="/logo.png" width="70%"/>
+      <img v-bind="attrs" v-on="on" src="/logo.png" :width="$vuetify.breakpoint.mobile ? '70%' : '30%'"/>
     </template>
 
     <span>Designed by renata.s / Freepik</span>
   </v-tooltip>
 </template>
+

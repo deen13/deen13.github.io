@@ -1,16 +1,12 @@
 <template>
   <v-app dark>
     <v-main>
-      <v-container>
-        <v-row no-gutters>
-          <v-col align="center">
-            <logo/>
-          </v-col>
+      <v-container fill-height>
+        <v-row align="center" justify="center">
+          <logo></logo>
+
+          <nuxt class="mt-10"></nuxt>
         </v-row>
-
-        <nuxt class="mb-10 mt-4"></nuxt>
-
-        <navigation></navigation>
       </v-container>
     </v-main>
   </v-app>

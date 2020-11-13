@@ -6,9 +6,9 @@
   </v-row>
 </template>
 
-
 <script>
 export default {
+  layout: (ctx) => ctx.isMobile ? 'mobile' : 'default',
   async asyncData({$axios}) {
     const projects = await $axios.$get('https://raw.githubusercontent.com/deen13/json-store/master/projects.json')
 
