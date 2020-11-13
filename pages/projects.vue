@@ -10,7 +10,7 @@
 export default {
   layout: (ctx) => ctx.isMobile ? 'mobile' : 'desktop',
   async asyncData({$axios}) {
-    const projects = await $axios.$get('https://raw.githubusercontent.com/deen13/json-store/master/projects.json')
+    const projects = await $axios.$get('projects.json')
 
     return {projects}
   }
