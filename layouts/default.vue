@@ -5,7 +5,7 @@
         <v-row align="center" justify="center">
           <logo></logo>
 
-          <nuxt class="mt-10"></nuxt>
+          <nuxt class="mt-10" style="width: 90%"></nuxt>
 
           <navigation></navigation>
         </v-row>
