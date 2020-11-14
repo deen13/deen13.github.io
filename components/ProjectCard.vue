@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" outlined>
+  <v-card class="mx-auto" outlined max-width="600px">
     <v-list-item three-line>
       <v-list-item-content>
         <v-list-item-subtitle>{{ value.company }} • {{ value.year }}</v-list-item-subtitle>
