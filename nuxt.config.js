@@ -40,7 +40,7 @@ export default {
   ],
 
   axios: {
-    baseURL: 'https://raw.githubusercontent.com/deen13/json-store/master/',
+    baseURL: 'https://api.github.com/repos/deen13/json-store/contents/',
   },
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
